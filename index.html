@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- Bootstrap CSS -->
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+    <img src="./images/Logo.png">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Cads</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Salear order</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Confreems Rooms</a>
+      </li>
+    </ul>
+  </div>
+  <div class="profile">
+    <i>Adam's Shop</i>
+    <img src="./images/Notification.png">
+    <img src="./images/profile 1.png">
+  </div>
+</nav>
+
+<!-- Sidebar (Menu Bar) -->
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+             <img src="./images/active.png">
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (2).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img class="menuredlogo" src="./images/active (3).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (4).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (5).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (6).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (7).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (8).png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img src="./images/active (9).png"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      <div class="content">
+        <h2>75 Cads found</h2>
+        <div class="homelogo">
+            <i class="fa-solid fa-house"></i>
+            /<p>Product</p>
+            /<p>Product search</p>
+        </div>
+      </div>
+      <!-- MAIN CONTANT -->
+
+      <div class="maincontant">
+        <div class="productFilterRow">
+          <img class="filterIcon" src="./images/Product filters.png">
+          <img class="vectorLogo" height="18" width="18" src="./images/Vector.png">
+          
+          <div class="inputSection">
+            <form class="form">
+              <label for="search">
+                  <input required="" autocomplete="off" placeholder="Search By Keybord" id="search" type="text">
+                  
+                  <div class="icon">
+                    <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                      <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                    <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                      <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </div>
+                  <button type="reset" class="close-btn">
+                    <svg viewBox="0 0 20 20" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
+                      <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </label>
+                <label for="search">
+                  <input required="" autocomplete="off" placeholder="Action" id="search" type="text">
+                  
+                  <div class="icon">
+                    <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                      <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                    <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                      <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </div>
+                  <button type="reset" class="close-btn">
+                    <svg viewBox="0 0 20 20" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
+                      <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </form>
+
+                <img class="filterLogo" src="./images/Group 5389.png">
+
+                </label>
+          </div>
+          
+          <div class="firstinputRow">
+            <div class="animated">
+              <h5 style="font-family: sans-serif;" class=" mt-4 pl-3 ml-5 mb-3">Product ID</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <label style="margin-left: 40px;" for="name">From:</label>
+                  <input placeholder="Enter Product ID" type="text" id="name" name="name" required>
+                </div>
+          
+                <div class="form-group">
+                  <label  style="margin-left: 20px;" for="email">From ID:</label>
+                  <input placeholder="Enter Product ID" type="email" id="email" name="email" required>
+                </div>
+                  
+              </div>
+            </div>
+            <div class=" animated">
+              <h5 style="font-family: sans-serif;" class="mt-4 ml-5 mb-3">Price</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <label style="margin-left: 40px;" for="name">From:</label>
+                  <input placeholder="Product Price" type="text" id="name" name="name" required>
+                </div>
+          
+                <div class="form-group">
+                  <label  style="margin-left: 20px;" for="email">From ID:</label>
+                  <input placeholder="Product ID " type="email" id="email" name="email" required>
+                </div>
+                  
+              </div>
+            </div>
+            <div class=" animated">
+              <h5 style="font-family: sans-serif;" class="mt-4 ml-3 mb-3">Quantity</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <label style="margin-left: 40px;" for="name">From:</label>
+                  <input placeholder="Product Quntity" type="text" id="name" name="name" required>
+                </div>
+          
+                <div class="form-group">
+                  <label  style="margin-left: 20px;" for="email">From ID:</label>
+                  <input placeholder="Product ID" type="email" id="email" name="email" required>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+          <div class="firstinputRow">
+            <div class="animated">
+              <h5 style="font-family: sans-serif;" class="mt-4">Store View</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <select id="dropdown" name="dropdown">
+                    <option value="option1">All Store View</option>
+                    <option value="option2">Electronic</option>
+                    <option value="option3">Cosmatic</option>
+                    <option value="option3">Dreses</option>
+                    <option value="option3">Medical</option>
+                  </select> 
+                </div>
+          
+              
+                  
+              </div>
+            </div>
+            <div class=" animated">
+              <h5 style="font-family: sans-serif;" class="ml-2 mt-4">Asset</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <select id="dropdown" name="dropdown">
+                    <option value="option1">All Store View</option>
+                    <option value="option2">Electronic</option>
+                    <option value="option3">Cosmatic</option>
+                    <option value="option3">Dreses</option>
+                    <option value="option3">Medical</option>
+                  </select> 
+                </div>
+             
+              </div>
+            </div>
+            <div class=" animated">
+              <h5 style="font-family: sans-serif;" class="mt-4">Categories</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <select id="dropdown" name="dropdown">
+                    <option value="option1">All Store View</option>
+                    <option value="option2">Electronic</option>
+                    <option value="option3">Cosmatic</option>
+                    <option value="option3">Dreses</option>
+                    <option value="option3">Medical</option>
+                  </select>   
+                </div>
+          
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="firstinputRow">
+            <div class="animated">
+              <h5 style="font-family: sans-serif;" class="">Name</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <input placeholder="Your Name" type="email" id="email" name="email" required>
+                  
+                </div>
+          
+              
+                  
+              </div>
+            </div>
+            <div class=" animated">
+              <h5 style="font-family: sans-serif;" class="">Type</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <select id="dropdown" name="dropdown">
+                    <option value="option1">All Store View</option>
+                    <option value="option2">Electronic</option>
+                    <option value="option3">Cosmatic</option>
+                    <option value="option3">Dreses</option>
+                    <option value="option3">Medical</option>
+                  </select> 
+                </div>
+             
+              </div>
+            </div>
+            <div class=" animated">
+              <h5 style="font-family: sans-serif;" class="">Attributeset</h5>
+              <div class="firstInputFrom">
+                <div class="form-group">
+                  <select id="dropdown" name="dropdown">
+                    <option value="option1">All Store View</option>
+                    <option value="option2">Electronic</option>
+                    <option value="option3">Cosmatic</option>
+                    <option value="option3">Dreses</option>
+                    <option value="option3">Medical</option>
+                  </select>   
+                </div>
+          
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="buttonRow">
+            <span>Cencel</span>
+            <button>Aplly Filter</button>
+          </div>
+
+          <div class="sliderText">
+            <span>Slider</span><i>(Unites/Page)</i>
+          </div>
+
+         <div class="mainSliderRow">
+          <div class="slider-container">
+            <label for="">Units</label><br>
+            <input type="range" id="slider" name="slider" min="0" max="100" value="50">
+            <div class="maxtomin">
+              <select id="dropdown" name="dropdown">
+                <option value="option1">MIN</option>
+                <option value="option2">10</option>
+                <option value="option3">20</option>
+                <option value="option3">30</option>
+                <option value="option3">40</option>
+              </select>   
+              <span>TO</span>
+              <div class="form-group">
+                <select id="dropdown" name="dropdown">
+                  <option value="option1">MAX</option>
+                  <option value="option2">50</option>
+                  <option value="option3">60-65</option>
+                  <option value="option3">70-80</option>
+                  <option value="option3">100</option>
+                </select>   
+              </div>
+            </div>
+          </div>
+          <div class="slider-container">
+            <label for="">Units</label><br>
+            <input type="range" id="slider" name="slider" min="0" max="100" value="50">
+            <div class="maxtomin">
+              <select id="dropdown" name="dropdown">
+                <option value="option1">MIN</option>
+                <option value="option2">10</option>
+                <option value="option3">20</option>
+                <option value="option3">30</option>
+                <option value="option3">40</option>
+              </select>   
+              <span>TO</span>
+              <div class="form-group">
+                <select id="dropdown" name="dropdown">
+                  <option value="option1">MAX</option>
+                  <option value="option2">50</option>
+                  <option value="option3">60-65</option>
+                  <option value="option3">70-80</option>
+                  <option value="option3">100</option>
+                </select>   
+              </div>
+            </div>
+          </div>
+          
+          <div class="slider-container">
+            <label for="">Units</label><br>
+            <input type="range" id="slider" name="slider" min="0" max="100" value="50">
+            <div class="maxtomin">
+              <select id="dropdown" name="dropdown">
+                <option value="option1">MIN</option>
+                <option value="option2">10</option>
+                <option value="option3">20</option>
+                <option value="option3">30</option>
+                <option value="option3">40</option>
+              </select>   
+              <span>TO</span>
+              <div class="form-group">
+                <select id="dropdown" name="dropdown">
+                  <option value="option1">MAX</option>
+                  <option value="option2">50</option>
+                  <option value="option3">60-65</option>
+                  <option value="option3">70-80</option>
+                  <option value="option3">100</option>
+                </select>   
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+  
+      
+    </main>
+  </div>
+
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/ca9a6c5a17.js" crossorigin="anonymous"></script>
+</body>
+</html>
