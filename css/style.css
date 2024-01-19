@@ -1,5 +1,7 @@
 body {
-    padding-top: 56px; /* Adjusted for the fixed navbar height */
+  background-color: #f1eaf070;
+    
+  padding-top: 56px; /* Adjusted for the fixed navbar height */
   }
   .sidebar {
     height: 100vh;
@@ -59,7 +61,7 @@ body {
 
 .maincontant{
     width: 100%;
-    height: 1200px;
+    height: 1800px;
     /* display: flex; */
     border: 1px solid black;
 }
@@ -380,7 +382,7 @@ body {
       height: 30px;
       background-color: #f1eaf070;
       margin-top: 20px;
-      border: 1px solid red
+      /* border: 1px solid red */
     }
 
     .invonteryFilterRow span{
@@ -393,4 +395,36 @@ body {
 
     .invonteryFilterRow img{
       margin-left: 882px;
+    }
+
+    .mainProduct{
+      width: 100%;
+      height: 500px;
+      margin-top: 10px;
+      border: 1px solid red;
+    }
+
+    .firstrowProduc{
+      width: 100%;
+      height: 30px;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-around;
+      /* border: 1px solid blue; */
+    }
+
+    .firstrowProduc span{
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+
+    .firstrowProduc span i{
+      font-family: sans-serif;
+      font-weight: bold;
+      color: gray;
+    }
+    .firstrowProduc button{
+      background: #5cddd734;
+      font-family: sans-serif;
+      border-radius: 5px;
     }
