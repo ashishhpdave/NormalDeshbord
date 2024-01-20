@@ -481,3 +481,58 @@ body {
       color: rgba(128, 128, 128, 0.534);
     }
 
+
+    /* PERMISTION PAGE  */
+
+    .permistionRow{
+      width: 100%;
+      height: 120px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      border: 1px solid red;
+    }
+
+    .profileBox{
+      width: 60px;
+      /* height: 116px; */
+      margin-left: 160px;
+   
+      /* border-right: 1px solid rgba(128, 128, 128, 0.432); */
+    }
+
+    .profileBox img{
+      margin-left: -110px;
+    }
+
+    .userIDBox{
+      width: 150px;
+      height: 40px;
+      margin-top: 50px;
+      /* margin-left: 160px; */
+      padding-left: 40px;
+      /* padding-right: 30px; */
+      border-left: 1px solid rgba(128, 128, 128, 0.432);
+    }
+
+    .userIDBox span{
+      color: gray;
+      font-family: sans-serif;
+      font-weight: normal;
+    }
+
+    .userIDBox h6{
+      
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+
+    .permistionInputSection{
+      width: 100%;
+      height: 300px;
+      border: 1px solid red;
+    }
+    .permistionInput{
+      margin: 50px auto;
+      margin-bottom: 60px;
+    }
