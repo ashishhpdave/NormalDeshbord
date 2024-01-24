@@ -149,9 +149,9 @@
       
           <div class="permistionInputSection">
             <form class="">
-              <div class="form-group">
+              <div class="form-group mt-5">
                 <h6> Companies</h6>
-                 <select class="form-control" id="dropdown" name="dropdown">
+                 <select class="form" id="dropdown" name="dropdown">
                     <option value="option1">Companies</option>
                     <option value="option2">Next Big</option>
                     <option value="option3">suturt</option>
@@ -161,8 +161,8 @@
               </div> 
              
               <div class="form-group">
-                <h6> Brand</h6>
-                 <select class="form-control" id="dropdown" name="dropdown">
+                <h6> Categories</h6>
+                 <select class="form" id="dropdown" name="dropdown">
                     <option value="option1">Brand</option>
                     <option value="option2">Zara</option>
                     <option value="option3">Nick</option>
@@ -171,55 +171,26 @@
                   </select> 
               </div> 
 
-              <div class="form-group">
-                <h6> Categories</h6>
-                 <select class="form-control" id="dropdown" name="dropdown">
-                    <option value="option1">Categories</option>
-                    <option value="option2">Loafers</option>
-                    <option value="option3">Boots</option>
-                    <option value="option3">sandals</option>
-                    <option value="option3">Medical</option>
-                  </select> 
-              </div> 
-
-              <div class="form-group">
-                <h6> Suggestion</h6>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Running </label> 
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Tennis </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Basketball </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Cricket </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Playing </label>
-              </div> 
-
-              <div class="form-group">
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Running </label> 
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Tennis </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Basketball </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Cricket </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Playing </label>
-              </div> 
-              <div class="form-group">
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Running </label> 
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Tennis </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Basketball </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Cricket </label>
-                <input class="mainChheckBox" type="checkbox" >
-                <label> Playing </label>
-              </div> 
+              <div class="brandSection">
+                <select class="form" id="dropdown" name="dropdown" onclick="showCheckboxes()">
+                  <option value="">Select an option</option>
+                  <!-- Add more options as needed -->
+                </select>
+              
+                <div class="checkbox-group">
+                  <label for="checkbox1" class="search-checkbox">
+                    <input class="mainChheckBox" type="checkbox" id="checkbox1"> Option 1
+                  </label><br>
+                  <label for="checkbox2" class="search-checkbox">
+                    <input class="mainChheckBox" type="checkbox" id="checkbox2"> Option 2
+                  </label><br>
+                  <label for="checkbox3" class="search-checkbox">
+                    <input class="mainChheckBox" type="checkbox" id="checkbox3"> Option 3
+                  </label>
+                  <!-- Add more checkboxes as needed -->
+                </div>
+              </div>
+               
             </form>
         </div>
         
@@ -228,6 +199,9 @@
   </div>
 
 </div>
+
+<script src="./index.js"></script>
+
 
 <!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -321,10 +321,11 @@ body {
     .buttonRow button{
       width: 120px;
       height: 40px;
-      background: #FFf;
+      background: #201d1dce;
       outline: none;
       margin-left: 20px;
       margin-right: 32px;
+      color: white;
       border-color: #ced4da;
       border-radius: 20px;
     }
@@ -552,3 +553,20 @@ body {
       margin-right: 40px;
       margin-left: 40px;
     }
+
+
+    .brandSection{
+      width: 550px;
+      height: 100px;
+      border: 1px solid red;
+    }
+
+    .brandSection input{
+      margin-top: 20px;
+    }
+
+.checkbox-group {
+      display: none;
+    }
+
+  
