@@ -558,7 +558,7 @@ body {
     .brandSection{
       width: 550px;
       height: 100px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
     }
 
     .brandSection input{
